@@ -332,7 +332,7 @@
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
 #define HEATER_4_MAXTEMP 275
-#define BED_MAXTEMP 150
+#define BED_MAXTEMP 90 //150
 
 //===========================================================================
 //============================= PID Settings ================================
@@ -819,7 +819,7 @@
 #endif
 
 /**
- * Filament Runout Sensor
+ * Filament Runout Sensor  // TODO KINO
  * A mechanical or opto endstop is used to check for the presence of filament.
  *
  * RAMPS-based boards use SERVO3_PIN.
