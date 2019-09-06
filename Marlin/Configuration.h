@@ -76,7 +76,7 @@
 #define STRING_CONFIG_H_AUTHOR "Kino XTLW2 Extended" // Who made the changes.
 #define SHOW_BOOTSCREEN
 #define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // will be shown during bootup in line 1
-#define STRING_SPLASH_LINE2 "Eadem Mutata Resurgo"         // will be shown during bootup in line 2
+#define STRING_SPLASH_LINE2 "Eadem Mutata Resurgo" // will be shown during bootup in line 2
 
 /**
  * *** VENDORS PLEASE READ ***
@@ -90,7 +90,7 @@
  */
 
 // Enable to show the bitmap in Marlin/_Bootscreen.h on startup.
-#define SHOW_CUSTOM_BOOTSCREEN
+// #define SHOW_CUSTOM_BOOTSCREEN
 
 // Enable to show the bitmap in Marlin/_Statusscreen.h on the status screen.
 //#define CUSTOM_STATUS_SCREEN_IMAGE
@@ -1008,7 +1008,7 @@
 // Direction of endstops when homing; 1=MAX, -1=MIN
 // :[-1,1]
 #define X_HOME_DIR -1
-#define Y_HOME_DIR -1
+#define Y_HOME_DIR 1
 #define Z_HOME_DIR -1
 
 // @section machine
@@ -1653,7 +1653,7 @@
 //
 //  Set this option if CLOCKWISE causes values to DECREASE
 //
-#define REVERSE_ENCODER_DIRECTION
+// #define REVERSE_ENCODER_DIRECTION
 
 //
 // This option reverses the encoder direction for navigating LCD menus.
